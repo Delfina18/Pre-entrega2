@@ -1,0 +1,1371 @@
+@font-face {
+    font-family: 'Nunito';
+    src: url('../Recursos/Tipografias/Nunito_Sans/NunitoSans-Italic-VariableFont_YTLC\,opsz\,wdth\,wght.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../Recursos/Tipografias/Roboto_Condensed/RobotoCondensed-Light.ttf');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: 'Roboto';
+}
+
+
+/*Index*/
+header {
+    height: 80px;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.inicio:hover {
+    text-decoration: underline;
+    background-color: rgba(112, 112, 112, 0.514);
+    color: white;
+    border-radius: 5px;
+}
+
+.nuestrolaboratorio:hover {
+    text-decoration: underline;
+    background-color: rgba(112, 112, 112, 0.514);
+    color: white;
+    border-radius: 5px;
+}
+
+.servicios:hover {
+    text-decoration: underline;
+    background-color: rgba(112, 112, 112, 0.514);
+    color: white;
+    border-radius: 5px;
+}
+
+.menuservicios:hover {
+    text-decoration: underline;
+    background-color: rgba(112, 112, 112, 0.514);
+    color: white;
+    border-radius: 5px;
+}
+
+.resoluciones:hover {
+    text-decoration: underline;
+    background-color: rgba(112, 112, 112, 0.514);
+    color: white;
+    border-radius: 5px;
+}
+
+.contacto:hover {
+    text-decoration: underline;
+    background-color: rgba(112, 112, 112, 0.514);
+    color: white;
+    border-radius: 5px;
+}
+
+.buscar:hover {
+    text-decoration: underline;
+    background-color: rgba(112, 112, 112, 0.514);
+
+}
+
+header nav {
+    width: 100%;
+}
+
+.d-flex button {
+    background-color: #acc6d8c9;
+    color: white;
+    border: none;
+}
+
+
+.navegador li a {
+    text-decoration: none;
+    font-family: 'Nunito';
+    padding: 10px;
+    color: grey;
+}
+
+
+.seccion1 {
+    background-image: linear-gradient(rgba(30, 51, 106, 0.75), rgba(30, 51, 106, 0.75)),
+        url('../Recursos/Imagen\ de\ fondo\ 2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    opacity: 0.75;
+    max-width: 1200px;
+
+}
+
+.seccion1 h1 {
+    font-family: 'Nunito';
+    font-size: 40px;
+    font-weight: 300;
+    color: white;
+    height: 40px;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    top: 80px;
+    left: 480px;
+}
+
+.seccion1 h2 {
+    font-family: 'Nunito';
+    font-size: 30px;
+    font-weight: 300;
+    color: white;
+    height: 40px;
+    text-align: center;
+    position: absolute;
+    top: 200px;
+    left: 230px;
+}
+
+.nav1__index {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-content: flex-start;
+    position: absolute;
+    top: 250px;
+    height: 200px;
+    align-items: center;
+    position: absolute;
+    left: 190px
+}
+
+.nav1__index a {
+    color: rgba(128, 128, 128, 0.534);
+    background-color: #e8edf1be;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Nunito";
+    font-size: 25px;
+    font-weight: lighter;
+    margin: 40px;
+    padding: 50px 20px 50px 20px;
+}
+
+
+
+.seccion2 {
+    height: 400px;
+    max-width: 1200px;
+}
+
+.seccion2 img {
+    position: absolute;
+    top: 600px;
+    left: 200px;
+    height: 200px;
+}
+
+.seccion2 h1 {
+    font-family: "Nunito";
+    font-size: 30px;
+    font-weight: lighter;
+    display: inline;
+    position: absolute;
+    top: 530px;
+    left: 500px;
+    color: rgba(128, 128, 128, 0.495);
+    letter-spacing: 3px;
+}
+
+.texto1__seccion2 {
+    font-family: "Nunito";
+    font-weight: 200;
+    height: 120px;
+    width: 700px;
+    color: rgba(128, 128, 128, 0.495);
+    position: absolute;
+    top: 600px;
+    left: 550px;
+    word-spacing: 2px;
+}
+
+.texto2__seccion2 {
+    font-family: "Nunito";
+    font-weight: 200;
+    height: 120px;
+    width: 700px;
+    color: rgba(128, 128, 128, 0.495);
+    position: absolute;
+    top: 725px;
+    left: 550px;
+    word-spacing: 2px;
+}
+
+.seccion3__index {
+    width: 100%;
+}
+
+.grilla__index {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "Area1 Area1 Area1 Area1"
+        "Area2 Area3 Area4 Area5";
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    letter-spacing: 3px;
+    background-image: linear-gradient(rgba(30, 51, 106, 0.75), rgba(30, 51, 106, 0.75)),
+        url('../Recursos/Mujer.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    opacity: 0.75;
+    width: 100%;
+
+
+}
+
+.Area1 {
+    grid-area: Area1;
+    font-size: 30px;
+    border: solid rgba(234, 240, 243, 0.912) 1px;
+    font-family: "Nunito";
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+
+}
+
+.Area2 {
+    grid-area: Area2;
+}
+
+.container .img1__seccion3 {
+    width: 200px;
+}
+
+.Area3 {
+    grid-area: Area3;
+}
+
+.container .img2__seccion3 {
+    width: 200px;
+}
+
+.Area4 {
+    grid-area: Area4;
+}
+
+.container .img3__seccion3 {
+    width: 200px;
+}
+
+.Area5 {
+    grid-area: Area5;
+}
+
+.container .img4__seccion3 {
+    width: 200px;
+}
+
+.seccion4 {
+    height: 400px;
+    display: flex;
+    max-width: 1200px;
+    font-family: "Nunito";
+    color: rgba(128, 128, 128, 0.495);
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.div1__seccion4 {
+    letter-spacing: 1px;
+    height: 400px;
+    width: 600px;
+}
+
+
+.Cotizacion__seccion4 {
+    position: absolute;
+    top: 1325px;
+    font-weight: lighter;
+    font-size: 20px;
+    border: solid grey 2px;
+    padding: 10px;
+}
+
+.CompletarFormulario {
+    font-weight: lighter;
+    font-size: 15px;
+    margin: 10px;
+    text-align: justify;
+    width: 400px;
+    position: absolute;
+    top: 1375px;
+
+}
+
+.Direccion {
+    font-weight: lighter;
+    font-size: 15px;
+    margin: 10px;
+    text-align: justify;
+    position: absolute;
+    top: 1435px;
+}
+
+.Telefono {
+    font-weight: lighter;
+    font-size: 15px;
+    margin: 10px;
+    text-align: justify;
+    position: absolute;
+    top: 1475px;
+}
+
+.Emali {
+    font-weight: lighter;
+    font-size: 15px;
+    margin: 10px;
+    text-align: justify;
+    position: absolute;
+    top: 1510px;
+}
+
+.Iconos {
+    font-weight: lighter;
+    font-size: 15px;
+    margin: 10px;
+    text-align: justify;
+    position: absolute;
+    top: 1545px;
+}
+
+.Formulario__index {
+    height: 400px;
+    width: 600px;
+    font-family: "Roboto";
+    color: grey;
+    position: absolute;
+    top: 1310px;
+    right: 20px;
+}
+
+.seccion4 .nombre__form {
+    border: solid grey 1px;
+    border-radius: 4px;
+    width: 200px;
+    height: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.seccion4 .empresa__form {
+    border: solid grey 1px;
+    border-radius: 4px;
+    width: 200px;
+    height: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.seccion4 .celular__form {
+    border: solid grey 1px;
+    border-radius: 4px;
+    width: 200px;
+    height: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.seccion4 .email__form {
+    border: solid grey 1px;
+    border-radius: 4px;
+    width: 400px;
+    height: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.seccion4 .mediciones__form {
+    border: solid grey 1px;
+    border-radius: 4px;
+    width: 200px;
+    height: 30px;
+    margin: 10px;
+}
+
+.seccion4 .puntos__form {
+    border: solid grey 1px;
+    border-radius: 4px;
+    width: 200px;
+    height: 30px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.seccion4 .zona__form {
+    border: solid grey 1px;
+    border-radius: 4px;
+    width: 200px;
+    height: 30px;
+    margin: 10px;
+}
+
+.seccion4 .mensaje__form {
+    border: solid grey 1px;
+    border-radius: 4px;
+    width: 300px;
+    height: 80px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.seccion4 .enviar__form {
+    border: solid grey 1px;
+    border-radius: 4px;
+    width: 50px;
+    height: 30px;
+    margin: 10px;
+}
+
+.footer__index {
+    background-color: gray;
+    font-family: "Nunito";
+    color: rgba(255, 255, 255, 0.785);
+    height: 200px;
+}
+
+.LogoBorex__footer {
+    position: absolute;
+    top: 1700px;
+    margin: 10px;
+}
+
+.Borex__footer {
+    position: absolute;
+    top: 1850px;
+    margin: 10px;
+}
+
+.LogoCofilab__footer {
+    position: absolute;
+    top: 1700px;
+    left: 600px;
+    height: 150px;
+}
+
+.Sitioseguro__footer {
+    position: absolute;
+    top: 1850px;
+    right: 160px;
+    margin: 10px;
+}
+
+.Direccion__footer {
+    margin: 10px;
+    position: absolute;
+    top: 1700px;
+    right: 160px;
+}
+
+.Telefono__footer {
+    text-align: right;
+    margin: 10px;
+    position: absolute;
+    top: 1725px;
+    right: 160px;
+}
+
+.Emailborex__footer {
+    text-align: right;
+    margin: 10px;
+    position: absolute;
+    top: 1750px;
+    right: 160px;
+}
+
+/*Seccion Nuestro laboratorio*/
+.titulo__nuestrolaboratorio {
+    font-family: 'Nunito';
+    font-size: 35px;
+    font-weight: 200;
+    color: white;
+    height: 100px;
+    text-align: center;
+    background-color: #acc6d8c9;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.seccion2__nuestrolaboratorio {
+    width: 1200px;
+    height: 400px;
+}
+
+.seccion2__nuestrolaboratorio img {
+    position: absolute;
+    top: 240px;
+    left: 200px;
+    height: 200px;
+}
+
+.seccion2__nuestrolaboratorio h1 {
+    font-family: "Nunito";
+    font-size: 30px;
+    font-weight: lighter;
+    display: inline;
+    position: absolute;
+    top: 225px;
+    left: 500px;
+    color: rgba(128, 128, 128, 0.495);
+    letter-spacing: 3px;
+}
+
+.seccion2__nuestrolaboratorio .texto1__seccion2 {
+    font-family: "Nunito";
+    font-weight: 200;
+    height: 120px;
+    width: 700px;
+    color: rgba(128, 128, 128, 0.495);
+    position: absolute;
+    top: 300px;
+    left: 550px;
+    word-spacing: 2px;
+}
+
+.seccion2__nuestrolaboratorio .texto2__seccion2 {
+    font-family: "Nunito";
+    font-weight: 200;
+    height: 120px;
+    width: 700px;
+    color: rgba(128, 128, 128, 0.495);
+    position: absolute;
+    top: 400px;
+    left: 550px;
+    word-spacing: 2px;
+}
+
+.footer__nuestrolaboratorio {
+    background-color: gray;
+    font-family: "Nunito";
+    color: rgba(255, 255, 255, 0.785);
+    height: 200px;
+}
+
+.LogoBorex__footernuestrolab {
+    position: absolute;
+    top: 1200px;
+    margin: 10px;
+}
+
+.Borex__footernuestrolab {
+    position: absolute;
+    top: 1350px;
+    margin: 10px;
+}
+
+.LogoCofilab__footernuestrolab {
+    position: absolute;
+    top: 1210px;
+    left: 600px;
+    margin: 10px;
+    height: 150px;
+}
+
+.Sitioseguro__footernuestrolab {
+    position: absolute;
+    top: 1350px;
+    margin: 10px;
+    right: 160px;
+}
+
+.Direccion__footernuestrolab {
+    margin: 10px;
+    position: absolute;
+    top: 1200px;
+    right: 160px;
+    text-align: right;
+}
+
+.Telefono__footernuestrolab {
+    margin: 10px;
+    position: absolute;
+    top: 1225px;
+    right: 160px;
+    text-align: right;
+}
+
+.Emailborex__footernuestrolab {
+    text-align: right;
+    margin: 10px;
+    position: absolute;
+    top: 1250px;
+    right: 160px;
+}
+
+/*Seccion Servicios*/
+.seccion1__servicios {
+    font-family: 'Nunito';
+    color: white;
+    height: 175px;
+    text-align: center;
+    background-color: #acc6d8c9;
+    width: 100%;
+}
+
+.seccion1__servicios h1 {
+    font-family: 'Nunito';
+    font-size: 35px;
+    font-weight: 200;
+    height: 40px;
+    text-align: center;
+    padding: 20px;
+}
+
+.seccion1__servicios img {
+    height: 50px;
+    position: absolute;
+    top: 85px;
+    right: 450px;
+}
+
+.seccion1__servicios p {
+    font-family: 'Nunito';
+    font-size: 25px;
+    font-weight: 200;
+    text-align: center;
+    width: 1000px;
+    position: absolute;
+    left: 200px;
+    top: 145px;
+}
+
+.Seccion2__servicios {
+    display: grid;
+    grid-template-columns: [Area-1] 1.5fr 1fr 1fr 1fr 1fr 1.5fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "Blanco1 LogoAsbestos RuidoAmbiental EmisionesGasesosas AnalisisDeAguas Blanco2"
+        "Blanco1 AnalisisSuelo AparatosAPresion Tramites Vibraciones Blanco2";
+    height: 300px;
+    max-width: 1200px;
+    align-items: center;
+    justify-items: center;
+    padding: 10px 0px 10px 0px;
+}
+
+.Blanco1 {
+    grid-area: Blanco1;
+}
+
+.LogoAsbestos {
+    grid-area: LogoAsbestos;
+}
+
+.RuidoAmbiental {
+    grid-area: RuidoAmbiental;
+}
+
+.EmisionesGasesosas {
+    grid-area: EmisionesGasesosas;
+}
+
+.AnalisisDeAguas {
+    grid-area: AnalisisDeAguas;
+}
+
+.Blanco2 {
+    grid-area: Blanco2;
+}
+
+.AnalisisSuelo {
+    grid-area: AnalisisSuelo;
+}
+
+.AparatosAPresion {
+    grid-area: AparatosAPresion;
+}
+
+.Tramites {
+    grid-area: Tramites;
+}
+
+.Vibraciones {
+    grid-area: Vibraciones;
+}
+
+.Seccion3__servicios {
+    font-family: 'Nunito';
+    color: white;
+    height: 175px;
+    text-align: center;
+    background-color: #acc6d8c9;
+    width: 100%;
+}
+
+.Seccion3__servicios h1 {
+    font-family: 'Nunito';
+    font-size: 35px;
+    font-weight: 200;
+    height: 40px;
+    text-align: center;
+    padding: 20px;
+}
+
+.Seccion3__servicios img {
+    height: 50px;
+    position: absolute;
+    top: 565px;
+    right: 460px;
+}
+
+.Seccion3__servicios p {
+    font-family: 'Nunito';
+    font-size: 25px;
+    font-weight: 200;
+    text-align: center;
+    width: 1000px;
+    position: absolute;
+    left: 200px;
+    top: 625px;
+}
+
+.Seccion4__servicios {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr 1fr 1fr 1.5fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "Blanco3 Iluminacion SeguridadE Potabilidad Ventilacion ContaminantesQ RuidoL Blanco4"
+        "Blanco3 Vibraciones CargaF Aparatos Ergonomia EstresTer RuidoL Blanco4";
+    height: 300px;
+    max-width: 1200px;
+    align-items: center;
+    justify-items: center;
+    padding: 10px 0px 10px 0px;
+}
+
+.Blanco3 {
+    grid-area: Blanco3;
+}
+
+.Iluminacion {
+    grid-area: Iluminacion;
+}
+
+.Seguridad {
+    grid-area: SeguridadE;
+}
+
+.Potabilidad {
+    grid-area: Potabilidad;
+}
+
+.Ventilacion {
+    grid-area: Ventilacion;
+}
+
+.ContaminantesQ {
+    grid-area: ContaminantesQ;
+}
+
+.RuidoL {
+    grid-area: RuidoL;
+}
+
+.Blanco4 {
+    grid-area: Blanco4;
+}
+
+.Vibraciones {
+    grid-area: Vibraciones;
+}
+
+.CargaF {
+    grid-area: CargaF;
+}
+
+.Aparatos {
+    grid-area: Aparatos;
+}
+
+.Ergonomia {
+    grid-area: Ergonomia;
+}
+
+.EstresTer {
+    grid-area: EstresTer;
+}
+
+.footer__servicios {
+    background-color: gray;
+    font-family: "Nunito";
+    color: rgba(255, 255, 255, 0.785);
+    height: 200px;
+}
+
+.LogoBorex__footerservicios {
+    position: absolute;
+    top: 1035px;
+    margin: 10px;
+}
+
+.Borex__footerservicios {
+    position: absolute;
+    top: 1190px;
+    margin: 10px;
+}
+
+.LogoCofilab__footerservicios {
+    position: absolute;
+    top: 1050px;
+    left: 600px;
+    margin: 10px;
+    height: 150px;
+}
+
+.Sitioseguro__footerservicios {
+    position: absolute;
+    top: 1190px;
+    margin: 10px;
+    right: 160px;
+}
+
+.Direccion__footerservicios {
+    margin: 10px;
+    position: absolute;
+    top: 1035px;
+    right: 160px;
+    text-align: right;
+}
+
+.Telefono__footerservicios {
+    margin: 10px;
+    position: absolute;
+    top: 1060px;
+    right: 160px;
+    text-align: right;
+}
+
+.Emailborex__footerservicios {
+    text-align: right;
+    margin: 10px;
+    position: absolute;
+    top: 1085px;
+    right: 160px;
+}
+
+.main__normativa h1 {
+    font-family: 'Nunito';
+    color: white;
+    height: 100px;
+    text-align: center;
+    background-color: #acc6d8c9;
+    width: 100%;
+    font-size: 35px;
+    font-weight: 200;
+    padding-top: 30px;
+}
+
+.lista__normativa {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "N1 N10 N19"
+        "N2 N11 N20"
+        "N3 N12 N21"
+        "N4 N13 N22"
+        "N5 N14 N23"
+        "N6 N15 N24"
+        "N7 N16 N25"
+        "N8 N17 N18"
+        "N9 . .";
+    justify-content: center;
+    align-items: center;
+    justify-items: start;
+    height: 500px;
+    width: 100%;
+}
+
+.N1 a {
+    grid-area: N1;
+    color: grey;
+    text-decoration: none;
+    padding: 5px;
+}
+
+
+.N2 a {
+    grid-area: N2;
+    color: grey;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.N3 a {
+    grid-area: N3;
+    color: grey;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.N4 a {
+    grid-area: N4;
+    color: grey;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.N6 a {
+    grid-area: N6;
+    color: grey;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.N5 a {
+    grid-area: N5;
+    color: grey;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.N7 a {
+    grid-area: N7;
+    color: grey;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.N8 a {
+    grid-area: N8;
+    color: grey;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.N10 a {
+    grid-area: N10;
+    color: grey;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.N11 a {
+    grid-area: N11;
+    color: grey;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.N12 a {
+    grid-area: N12;
+    color: grey;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.N13 a {
+    grid-area: N13;
+    color: grey;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.N14 a {
+    grid-area: N14;
+    color: grey;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.N15 a {
+    grid-area: N15;
+    color: grey;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.N16 a {
+    grid-area: N16;
+    color: grey;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.N17 a {
+    grid-area: N17;
+    color: grey;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.N19 a {
+    grid-area: N19;
+    color: grey;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.N20 a {
+    grid-area: N20;
+    color: grey;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.N21 a {
+    grid-area: N21;
+    color: grey;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.N22 a {
+    grid-area: N22;
+    color: grey;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.N23 a {
+    grid-area: N23;
+    color: grey;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.N24 a {
+    grid-area: N24;
+    color: grey;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.N25 a {
+    grid-area: N25;
+    color: grey;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.N9 a {
+    grid-area: N9;
+    color: grey;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.N18 a {
+    grid-area: N18;
+    color: grey;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.footer__normativa {
+    background-color: gray;
+    font-family: "Nunito";
+    color: rgba(255, 255, 255, 0.785);
+    height: 200px;
+}
+
+.LogoBorex__footernormativa {
+    position: absolute;
+    top: 695px;
+    margin: 10px;
+}
+
+.Borex__footernormativa {
+    position: absolute;
+    top: 840px;
+    margin: 10px;
+}
+
+.LogoCofilab__footernormativa {
+    position: absolute;
+    top: 705px;
+    left: 600px;
+    margin: 10px;
+    height: 150px;
+}
+
+.Sitioseguro__footernormativa {
+    position: absolute;
+    top: 840px;
+    margin: 10px;
+    right: 160px;
+}
+
+.Direccion__footernormativa {
+    margin: 10px;
+    position: absolute;
+    top: 695px;
+    right: 160px;
+    text-align: right;
+}
+
+.Telefono__footernormativa {
+    margin: 10px;
+    position: absolute;
+    top: 720px;
+    right: 160px;
+    text-align: right;
+}
+
+.Emailborex__footernormativa {
+    text-align: right;
+    margin: 10px;
+    position: absolute;
+    top: 745px;
+    right: 160px;
+}
+
+/*Seccion Contacto*/
+.seccion1__contacto h1 {
+    font-family: 'Nunito';
+    color: white;
+    height: 100px;
+    text-align: center;
+    background-color: #acc6d8c9;
+    width: 100%;
+    font-size: 40px;
+    font-weight: 200;
+    padding-top: 30px;
+
+}
+
+.seccion2__contacto {
+    height: 330px;
+    display: flex;
+    width: 100%;
+    font-family: "Nunito";
+    color: rgba(128, 128, 128, 0.495);
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 10px;
+    padding-top: 30px;
+    justify-content: center;
+}
+
+.div1__seccion2contacto {
+    letter-spacing: 2px;
+    height: 400px;
+    width: 50%;
+}
+
+.Cotizacion__contacto {
+    position: absolute;
+    top: 200px;
+    font-weight: lighter;
+    font-size: 20px;
+    border: solid grey 2px;
+    padding: 10px;
+}
+
+.CompletarFormulario__contacto {
+    font-weight: lighter;
+    font-size: 15px;
+    margin: 10px;
+    text-align: justify;
+    width: 400px;
+    position: absolute;
+    top: 250px;
+}
+
+.Direccion__contacto {
+    font-weight: lighter;
+    font-size: 15px;
+    margin: 10px;
+    text-align: justify;
+    position: absolute;
+    top: 330px;
+}
+
+.Telefono__contacto {
+    font-weight: lighter;
+    font-size: 15px;
+    margin: 10px;
+    text-align: justify;
+    position: absolute;
+    top: 360px;
+}
+
+.Emali__contacto {
+    font-weight: lighter;
+    font-size: 15px;
+    margin: 10px;
+    text-align: justify;
+    position: absolute;
+    top: 390px;
+}
+
+.Iconos__contacto {
+    font-weight: lighter;
+    font-size: 15px;
+    margin: 10px;
+    text-align: justify;
+    position: absolute;
+    top: 420px;
+}
+
+.Formulario__contacto {
+    height: 400px;
+    width: 100%;
+    font-family: "Roboto";
+    color: grey;
+    padding-top: 45px;
+}
+
+form .nombre__form {
+    border: solid grey 1px;
+    border-radius: 4px;
+    width: 200px;
+    height: 20px;
+    margin: 10px;
+    padding: 5px
+}
+
+
+form .email__form {
+    border: solid grey 1px;
+    border-radius: 4px;
+    width: 400px;
+    height: 20px;
+    margin: 10px;
+    padding: 5px
+}
+
+form .asunto__form {
+    border: solid grey 1px;
+    border-radius: 4px;
+    width: 200px;
+    height: 20px;
+    margin: 10px;
+    padding: 5px
+}
+
+form .mensaje__form {
+    border: solid grey 1px;
+    border-radius: 4px;
+    width: 300px;
+    height: 80px;
+    margin: 10px;
+    padding: 5px
+}
+
+form .enviar__form {
+    border: solid grey 1px;
+    border-radius: 4px;
+    width: 50px;
+    height: 20px;
+    margin: 10px;
+}
+
+.footer__contacto {
+    background-color: gray;
+    font-family: "Nunito";
+    color: rgba(255, 255, 255, 0.785);
+    height: 200px;
+}
+
+.LogoBorex__footercontacto {
+    position: absolute;
+    top: 1030px;
+    margin: 10px;
+}
+
+.Borex__footercontacto {
+    position: absolute;
+    top: 1180px;
+    margin: 10px;
+}
+
+.LogoCofilab__footercontacto {
+    position: absolute;
+    top: 1040px;
+    left: 600px;
+    margin: 10px;
+    height: 150px;
+}
+
+.Sitioseguro__footercontacto {
+    position: absolute;
+    top: 1180px;
+    margin: 10px;
+    right: 160px;
+}
+
+.Direccion__footercontacto {
+    margin: 10px;
+    position: absolute;
+    top: 1030px;
+    right: 160px;
+    text-align: right;
+}
+
+.Telefono__footercontacto {
+    margin: 10px;
+    position: absolute;
+    top: 1055px;
+    right: 160px;
+    text-align: right;
+}
+
+.Emailborex__footercontacto {
+    text-align: right;
+    margin: 10px;
+    position: absolute;
+    top: 1085px;
+    right: 160px;
+}
+
+body {
+    max-width: 1200px;
+    margin: auto;
+}
+
+footer {
+    max-width: 1200px;
+    margin: auto;
+}
+
+@media(max-width:1200px) {
+    .seccion2__nuestrolaboratorio {
+        height: 300px;
+    }
+
+    .titulo__nuestrolaboratorio {
+        font-size: 25px;
+        height: 50px;
+        padding-top: 0px;
+        position: absolute;
+        top: 110px;
+    }
+
+    .seccion2__nuestrolaboratorio img {
+        position: absolute;
+        top: 168px;
+        height: 100px;
+    }
+}
